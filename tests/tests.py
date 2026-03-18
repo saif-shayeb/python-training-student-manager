@@ -10,7 +10,7 @@ def test_add_student_with_valid_info():
     res = [
         student
         for student in students.students_list
-        if student["email"] == "ahmad1@ex.com"
+        if student["email"] == "ahmad@ex.com"
     ]
     assert len(res) != 0
 
