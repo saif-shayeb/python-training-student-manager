@@ -6,11 +6,11 @@ import json
 
 
 def test_add_student_with_valid_info():
-    students.add_student("Ahmad rami", "ahmad@ex.com", 95.5)
+    students.add_student("Ahmad rami", "ahmad1@ex.com", 95.5)
     res = [
         student
         for student in students.students_list
-        if student["email"] == "ahmad@ex.com"
+        if student["email"] == "ahmad1@ex.com"
     ]
     assert len(res) != 0
 
