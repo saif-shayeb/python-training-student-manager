@@ -15,20 +15,7 @@ class StudentNotFoundError(Exception):
         super().__init__(self.message)
 
 
-students_list = [
-    {
-        "ID": str(uuid.uuid4()),
-        "name": "saif shayeb",
-        "email": "sshayep@gmail.com",
-        "grades": 95,
-    },
-    {
-        "ID": str(uuid.uuid4()),
-        "name": "ahmad sameh",
-        "email": "ahmadSa@gmail.com",
-        "grades": 87,
-    },
-]
+students_list = []
 
 
 def add_student(stu_name, stu_email, stu_grades):
